@@ -29,8 +29,10 @@ public class SerialTest {
 			
 
 		}
+		//The port name is specific for which ever os you are using. windows uses com
 		try {
-			thePort = port.open("COM3", 10);
+			thePort = port.open("/dev/cu.usbmodem1411", 10);
+			System.out.println("port opened");
 		} catch (PortInUseException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
