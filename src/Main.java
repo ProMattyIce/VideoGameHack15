@@ -59,7 +59,7 @@ public class Main extends JFrame {
 
     }
     public static void main(String[]args){
-        new View();
+        new Main();
     }
 
     /**ADD METAMIND CODE INSIDE OF THIS**/
