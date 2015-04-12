@@ -31,7 +31,9 @@ public class Navigation {
     static public String open(String url){
         Document doc = null;
         try {
-            doc = Jsoup.connect(url).get();
+            String userAgent = System.getProperty("http.agent");
+            doc = Jsoup.connect(url).userAgent(userAgent).userAgent("Mozilla").timeout(10 * 10000).get();
+
         } catch (IOException e1) {
             e1.printStackTrace();
         }

@@ -21,6 +21,9 @@ public class Main extends JFrame {
 
         inputField = new JTextField(10);
         metaResultField = new JTextField(10);
+        positiveField = new JTextField(10);
+        negativeField = new JTextField(10);
+        neutralField = new JTextField(10);
         metaResultField.setEnabled(false);
         positiveField.setEnabled(false);
         neutralField.setEnabled(false);
@@ -46,8 +49,8 @@ public class Main extends JFrame {
         add(neutralField);
 
         setTitle("Game review");
-        setSize(300,200);
-        setResizable(false);
+        setSize(900, 1200);
+        //setResizable(false);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
@@ -73,7 +76,7 @@ public class Main extends JFrame {
             for(String s : sites){
                 m = new MetaMindResults(Navigation.open(s));
                 negative+=m.getNegative();
-                positive+=m.getPositive();
+                positive+=m.getPostive();
                 neutral+=m.getNeutral();
             }
 
@@ -81,7 +84,7 @@ public class Main extends JFrame {
 
             negativeField.setText((int)(negative / total)+"");
             positiveField.setText((int)(positive / total)+"");
-            neutralField.setText((int)(neutral / total+""));
+            neutralField.setText((int)(neutral / total)+"");
 
             neutral = (int)(neutral / total);
             metaResultField.setText("Ignore me");
