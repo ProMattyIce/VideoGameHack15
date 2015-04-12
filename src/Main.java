@@ -18,7 +18,8 @@ public class Main extends JFrame {
         JLabel positiveLabel = new JLabel("Positive");
         JLabel negativeLabel = new JLabel("Negative");
         JLabel neutralLabel = new JLabel("Neutral");
-
+        JButton enterButton = new JButton("Enter");
+        enterButton.addActionListener(new EventHandler());
         inputField = new JTextField(10);
         metaResultField = new JTextField(10);
         positiveField = new JTextField(10);
@@ -47,7 +48,7 @@ public class Main extends JFrame {
         add(negativeField);
         add(neutralLabel);
         add(neutralField);
-
+        add(enterButton);
         setTitle("Game review");
         setSize(900, 1200);
         //setResizable(false);
@@ -84,7 +85,7 @@ public class Main extends JFrame {
             negativeField.setText((int)(negative / total)+"");
             positiveField.setText((int)(positive / total)+"");
             neutralField.setText((int)(neutral / total)+"");
-
+            System.out.println(negative + " \np: " + positive + "\nneutral" + neutral);
             neutral = (int)(neutral / total);
             metaResultField.setText("Ignore me");
         }
