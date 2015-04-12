@@ -80,8 +80,7 @@ public class Main extends JFrame {
                 neutral+=m.getNeutral();
             }
 
-            double total = negative + positive + neutral;
-
+            double total = sites.size();
             negativeField.setText((int)(negative / total)+"");
             positiveField.setText((int)(positive / total)+"");
             neutralField.setText((int)(neutral / total)+"");
