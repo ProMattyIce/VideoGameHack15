@@ -74,7 +74,7 @@ public class Navigation {
 
         String address = "http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=";
         String charset = "UTF-8";
-       // Pattern p = Pattern.compile("\\b(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]");
+        // Pattern p = Pattern.compile("\\b(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]");
         Pattern p = Pattern.compile("\\(?\\bhttp://[-A-Za-z0-9+&@#/%?=~_()|!:,.;]*[-A-Za-z0-9+&@#/%=~_()|]");
 
         Matcher m = null;
@@ -100,11 +100,17 @@ public class Navigation {
 
         try {
             while ((str = in.readLine()) != null) {
-               // System.out.println(str);
+                System.out.println(str);
                 m = p.matcher(str);
                 while(m.find()) {
                     if(!results.contains(m.group()) && !m.group().contains("google") && !m.group().contains("metacritic")) {
-                        results.add(m.group());
+                        if(m.group().contains("youtube")) {
+                            if (!results.contains("youtube")) {
+                                results.add(m.group());
+                            }
+                        }else{
+                            results.add(m.group());
+                        }
                     }
                 }
             }
