@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26f647d3-0a66-412f-9694-5e0bc8e3c86c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/VideoGameHack15/Main.class" afterPath="$PROJECT_DIR$/out/production/VideoGameHack15/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Navigation.java" afterPath="$PROJECT_DIR$/src/Navigation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VideoGameHack15.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +32,8 @@
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-              <folding>
-                <element signature="e#313#321#0" expanded="true" />
-              </folding>
+              <caret line="0" column="81" selection-start-line="0" selection-start-column="81" selection-end-line="0" selection-end-column="81" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,8 +51,8 @@
       <file leaf-file-name="Navigation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Navigation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.510989">
-              <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="106" />
+            <state vertical-scroll-proportion="0.4642857">
+              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2579#2587#0" expanded="true" />
@@ -459,6 +459,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="1">
@@ -471,18 +477,21 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="26f647d3-0a66-412f-9694-5e0bc8e3c86c" name="Default" comment="" />
       <created>1428771633335</created>
       <option name="number" value="Default" />
       <updated>1428771633335</updated>
-      <workItem from="1428771617591" duration="17269000" />
+      <workItem from="1428771617591" duration="17680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17269000" />
+    <option name="totallyTimeSpent" value="17680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="0" width="1260" height="720" extended-state="0" />
@@ -570,16 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-          <folding>
-            <element signature="e#313#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MetaMindResults.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9459459">
@@ -588,10 +587,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="81" selection-start-line="0" selection-start-column="81" selection-end-line="0" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Navigation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.510989">
-          <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="106" />
+        <state vertical-scroll-proportion="0.4642857">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2579#2587#0" expanded="true" />
